@@ -1,3 +1,6 @@
+//This integrates Google Drive and Slack. 
+//Use it to automatically post updates to a slack channel with file links, for example
+
 function sendToSlack(url,payload) {
    var options =  {
     "method" : "post",
